@@ -1,0 +1,147 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.header-container, .about-container, .skills-container, .projects-container, .contact-container, .footer-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+header {
+    background: #548cc4;
+    color: #ecf0f1;
+    padding: 20px 0;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.tagline {
+    font-size: 1.2em;
+    font-weight: 300;
+    color: #1abc9c;
+}
+
+#about {
+    display: flex;
+    align-items: center;
+    padding: 40px 0;
+    background-color: #ecf0f1;
+}
+
+h2 {
+    color: #2c3e50;
+}
+
+p {
+    color: #34495e;
+    line-height: 1.6;
+}
+
+#skills {
+    background: #1abc9c;
+    padding: 40px 0;
+}
+
+.skills-container {
+    text-align: center;
+}
+
+.skills-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills-list li {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background: #fff;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.skills-list li:hover {
+    background-color: #16a085;
+    transform: scale(1.05);
+}
+
+#projects {
+    padding: 40px 0;
+    background-color: #f4f4f4;
+}
+
+.projects-container {
+    text-align: center;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.project-description {
+    max-width: 800px;
+    text-align: left;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.project-description:hover {
+    transform: translateY(-10px);
+}
+
+#contact {
+    background: #16a085;
+    padding: 40px 0;
+}
+
+.contact-container {
+    text-align: center;
+    color: #ecf0f1;
+}
+
+.contact-container a {
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+.contact-container a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background: #548cc4;
+    color: #ecf0f1;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-links a {
+    color: #ecf0f1;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}

@@ -18,8 +18,8 @@ body {
 }
 
 header {
-    background: #240750; 
-    color: #fff;
+    background: #1f5e7b; 
+    color: #d1e2e3;
     padding: 20px 0;
     text-align: center;
     border-radius: 8px;
@@ -91,12 +91,15 @@ nav ul li a:hover {
 
 #features {
     margin-bottom: 20px;
+    
 }
 
 #features h2 {
     font-size: 1.8rem;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    background-color: lightslategray;
+    border-radius: 20px;
 }
 
 .features-grid {
@@ -112,12 +115,13 @@ nav ul li a:hover {
     flex: 1 1 calc(50% - 20px);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
+    background-color: #a7c3df;
     transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .feature-item:hover {
     transform: translateY(-5px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 16px rgba(14, 0, 0, 0.992);
 }
 
 .feature-item h3 {
@@ -130,9 +134,9 @@ nav ul li a:hover {
 }
 
 #about {
-    background: #fff;
+    background: #344C64; 
     padding: 40px 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgb(6, 0, 0);
     border-radius: 8px;
     margin-bottom: 20px;
     text-align: center;
@@ -140,40 +144,47 @@ nav ul li a:hover {
 
 #about h2 {
     font-size: 1.8rem;
+    color: black;
     margin-bottom: 20px;
+    border-radius: 10px;
 }
 
 #about p {
     font-size: 1.1rem;
     line-height: 1.6;
-    color: #344C64; 
+    color: #f6f3f3; 
+    border-radius: 10px;
 }
 
 
-#contact {
-    background: #fff;
+#address {
+    background: #344C64; 
     padding: 40px 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgb(3, 0, 0);
     border-radius: 8px;
     margin-bottom: 20px;
     text-align: center;
+    
 }
 
-#contact h2 {
+#address h2 {
     font-size: 1.8rem;
+    color: black;
     margin-bottom: 20px;
+    border-radius: 10px;
 }
 
-#contact p {
+#address p {
     font-size: 1.1rem;
     line-height: 1.6;
-    color: #344C64; 
+    color: #f6f3f3;  
+    border-radius: 10px;
 }
 
 
 footer {
-    background: #240750; 
-    color: #fff;
+    background: #1f5e7b; 
+    color: #d1e2e3;
     text-align: center;
     padding: 20px 0;
     border-radius: 8px;
